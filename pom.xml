@@ -190,24 +190,6 @@
                 <version>${vertx.version}</version>
             </dependency>
 
-            <!-- Vert.x Patched 
-            <dependency>
-                <groupId>io.vertx</groupId>
-                <artifactId>vertx-grpc-server</artifactId>
-                <version>${vertx-grpc.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.vertx</groupId>
-                <artifactId>vertx-grpc-client</artifactId>
-                <version>${vertx-grpc.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.vertx</groupId>
-                <artifactId>vertx-grpc</artifactId>
-                <version>${vertx-grpc.version}</version>
-            </dependency>
-            -->
-
             <!-- Filtering -->
             <dependency>
                 <groupId>io.metaloom.filter</groupId>
@@ -454,7 +436,11 @@
                 <artifactId>picocli-codegen</artifactId>
                 <version>${pico-cli.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>me.tongfei</groupId>
+                <artifactId>progressbar</artifactId>
+                <version>0.10.0</version>
+            </dependency>
 
             <!-- Metaloom deps -->
             <dependency>
